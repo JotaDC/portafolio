@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="miestilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Menú -->
+    <header class="cabecera">
+        <div class="cabecera_wraper">
+            <div class="cabecera__logo_wraper">
+                <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
+                <h1 class="cabecera__titulo">Mi Portfolio</h1>
+
+            </div>
+
+            <nav class="navegacion">
+                <ul class="navegacion__lista">
+                    <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+                    <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                    <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
+                    <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                    <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
+                </ul>
+
+            </nav>
+        
+        <p class="cabecera__correo">javierdariocanete@gmail.com</p>
+    </div>
+    </header>
+
+    <!-- Sección de Presentación -->
+    <section class="presentacion">
+        <div class="presentacion__foto-wraper">
+            <img class="presentacion__foto" src="assets/foto-jdc.jpeg" alt="Foto de perfil">
+        </div>
+        <div class="presentacion__contenedor">
+            <h2 class="presentacion__titulo">Hola, mi nombre es <strong>Javier Dario Cañete</strong> </h2>
+            <p class="presentacion__subtitulo">Estoy formado en sistemas y tengo conocimientos en HTML, CSS,
+                JavaScript. Actualmente, estoy participando en el proyecto Oracle ONE en Alura Latam, donde sigo
+                fortaleciendo mis habilidades y creciendo profesionalmente.</p>
+            <ul class="redes">
+                <li class="redes__img"><a href="https://github.com/JotaDC" target="_blank">Github <img
+                            src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="https://www.linkedin.com/in/javier-dario-ca%C3%B1ete/"
+                        target="_blank">Linkedin <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="assets/CV Javier Darío Cañete 2025.pdf" target="_blank">Currículum <img
+                            src="assets/arrow.png" alt="Flecha" target="_blank"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section class="sobre-mi" id="sobre-mi">
+        <h2 class="sobre-mi__titulo">Sobre mí</h2>
+        <p class="sobre-mi__texto">Soy una persona con gran capacidad de aprendizaje, siempre dispuesto a adquirir
+            nuevos conocimientos y adaptarme a diferentes desafíos. Me destaco por mi habilidad para trabajar en grupo,
+            fomentando un ambiente colaborativo y positivo, y por mi enfoque en la resolución de problemas, buscando
+            soluciones prácticas y efectivas ante cualquier situación. Mi objetivo es contribuir con estas fortalezas a
+            equipos dinámicos y proyectos innovadores.</p>
+
+        <!-- Firma opcional -->
+        <!-- <img class="sobre-mi__firma" src="assets/signature.png" alt="Firma"> -->
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="habilidades__titulo">Habilidades</h2>
+        <ul class="habilidades__lista">
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="./assets/htlm.png" alt="HTML">
+                <p class="habilidades__nombre">HTML</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="./assets/css_icon.png" alt="CSS">
+                <p class="habilidades__nombre">CSS</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="./assets/js_icon.png" alt="JavaScript">
+                <p class="habilidades__nombre">JavaScript</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Aficiones -->
+    <section class="aficiones" id="aficiones">
+        <h2 class="aficiones__titulo">Aficiones</h2>
+        <ul class="aficiones__lista">
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/headphones_icon.png" alt="Oír música">
+                <p class="aficiones__nombre">Oír música</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/tv_icon.png" alt="Ver series">
+                <p class="aficiones__nombre">Ver series</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/forkspoon_icon.png" alt="Cocinar">
+                <p class="aficiones__nombre">Cocinar</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/camera_icon.png" alt="Tomar fotos">
+                <p class="aficiones__nombre">Tomar fotos</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="formacion" id="formacion">
+        <h2 class="formacion__titulo">Formación académica</h2>
+        <ul class="formacion__lista">
+
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/alura_logo.png" alt="Alura">
+                <div class="formacion_wrap">
+                    <h3 class="formacion__nombre">ONE Front End Latam</h3>
+                    <p class="formacion__detalle">En curso</p>
+                </div>
+            </li>
+
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/logo talento_tech.jpg" alt="UFRJ">
+                <div class="formacion_wrap">
+                    <h3 class="formacion__nombre">Iniciación a la Programación con Python</h3>
+                    <p class="formacion__detalle"> 2024 - Finalizado</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/utn-logo.png" alt="UFPR">
+                <div class="formacion_wrap">
+                    <h3 class="formacion__nombre">Ciencia de Datos</h3>
+                    <p class="formacion__detalle">2023 - Finalizado</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/Argentina-Programa.png" alt="UFPR">
+                <div class="formacion_wrap">
+                    <h3 class="formacion__nombre">Full Stack Web</h3>
+                    <p class="formacion__detalle">2022 - Finalizado</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="proyectos__titulo">Proyectos</h2>
+
+        <div class="proyectos__contenedor">
+            <div class="proyecto__card impar">
+                <img src="./assets/screenshot alurageek.png" alt="Imagen del Proyecto Encriptador" />
+                <div class="proyecto__card--2da">
+                    <h3 class="proyectos__nombre">Alura Geek</h3>
+                    <p class="proyectos__descripcion">(Desafio One)
+                        Objetivo: Aplicación web que permite a los usuarios gestionar una lista de productos. Los
+                        usuarios
+                        pueden visualizar, agregar y eliminar productos, utilizando tecnologías frontend modernas y un
+                        servidor JSON simulado. Realizado con html,
+                        css y javascript</p>
+                    <nav class="proyectos__botones">
+                        <a href="https://github.com/JotaDC/AluraGeek" target="_blank"
+                            class="proyectos__botones-repositorio">Repositorio</a>
+                        <a href="https://alurageek-pi.vercel.app/" target="_blank" class="proyectos__botones-demo">Ver
+                            Demo</a>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="proyecto__card par">
+
+                <img src="./assets/proyecto-encriptador-alura.jpeg" alt="Imagen del Proyecto Encriptador" />
+                <div class="proyecto__card--2da">
+                    <h3 class="proyectos__nombre">Proyecto Encriptador</h3>
+                    <p class="proyectos__descripcion">(Desafio One)
+                        Objetivo: Practicar todo lo aprendido en el curso logica de programación de Alura. Realizado con
+                        html,
+                        css y javascript</p>
+                    <nav class="proyectos__botones">
+                        <a href="https://github.com/JotaDC/encriptador" target="_blank"
+                            class="proyectos__botones-repositorio">Repositorio</a>
+
+                    </nav>
+                </div>
+            </div>
+
+            <div class="proyecto__card impar">
+                <img src="./assets/numero-secreto.png" alt="Imagen del Proyecto Numero numero-secreto" />
+                <div class="proyecto__card--2da">
+                    <h3 class="proyectos__nombre">Proyecto Encriptador</h3>
+                    <p class="proyectos__descripcion">Proyecto realizado para el curso de javascript principiante de
+                        Alura.
+                        Realizado con Html, Css y Javascript</p>
+                    <nav class="proyectos__botones">
+                        <a href="https://github.com/JotaDC/numero-secreto" target="_blank"
+                            class="proyectos__botones-repositorio">Repositorio</a>
+                        <a href="https://numero-secreto-ten-delta.vercel.app/" target="_blank"
+                            class="proyectos__botones-demo">Ver Demo</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contacto" id="contacto">
+        <h2 class="contacto__titulo">Contacto</h2>
+        <form action="mailto:javierdariocanete@gmail.com" class="contacto__formulario">
+            <div class="campos_wraper">
+                <label for="nombre">Nombre</label>
+                <input class="contacto__campo" type="text" placeholder="Nombre">
+            </div>
+            <div class="campos_wraper">
+                <label for="email">E-mail</label>
+                <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
+            </div>
+            <div class="campos_wraper">
+                <label for="mensaje">Asunto</label>
+                <input class="contacto__campo" type="asunto" placeholder="Asunto">
+            </div>
+            <div class="campos_wraper">
+                <label for="mensaje">Mensaje</label>
+                <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
+            </div>
+            <button class="contacto__boton" type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>Desarrollado por Javier Dario Cañete <br />2024 - Alura Latam</p>
+        
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
